@@ -1,0 +1,45 @@
+body{max-width: 600px;
+    margin-top:  100px;
+    margin: auto;
+}
+h1 {
+    color: red}
+    
+p {
+    background-color: ligthblue;
+    color:green
+    
+}
+
+h1, p{
+    text-decoration: underline;
+    border: 1px solid black;
+}
+#chosen{
+    text-transform: uppercase;
+}
+.rotate{
+    transform: rotate(180deg);
+    
+}
+p:hover{
+    font-weight: bold;
+}
+p::first-letter{
+    color: brown;
+    font-size: 2em;
+}
+p::befor,
+p::after{
+    content: '"';
+}
+div p {
+    transform: te
+}
+img{
+    width: 100%;
+    display: block;
+}
+.orig{
+    margin-top: -40px;
+}
